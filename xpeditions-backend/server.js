@@ -15,11 +15,11 @@ app.use(express.json()); // allows parsing JSON data from requests
 
 // PostgreSQL Database Connection Setup
 const pool = new Pool({
-    user: 'YOUR_PG_USERNAME',
-    host: 'YOUR_PG_HOST',
-    database: 'YOUR_PG_DATABASE_NAME',
-    password: 'YOUR_PG_PASSWORD',
-    port: 'YOUR_PG_PORT'
+    user: 'PG_USER',
+    host: 'PG_HOST',
+    database: 'PG_NAME',
+    password: 'PG_PASSWORD',
+    port: 'PG_PORT'
 });
 
 // Test route
